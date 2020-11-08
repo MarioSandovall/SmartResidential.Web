@@ -1,0 +1,161 @@
+{
+  "language": {
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "button": {
+    "login": "Iniciar sesión",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "remove": "Eliminar",
+    "continue": "Continuar",
+    "yes": "Si",
+    "resend_invitation": "Reenviar invitación",
+    "resend_email": "Reenviar correo electrónico",
+    "view": "Ver"
+  },
+  "menu": {
+    "home": "Inicio",
+    "houses": "Casas",
+    "users": "Usuarios",
+    "expense_categories": "Categorías de gastos",
+    "residential": "Residenciales",
+    "logout": "Cerrar sesión",
+    "announcements": "Avisos"
+  },
+  "table": {
+    "filter": "Filtro",
+    "no_data_available": "Datos no disponibles"
+  },
+  "email": {
+    "email_has_been_sent": "El correo electrónico ha sido enviado",
+    "are_you_sure_you_want_to_resend_the_invitation": "¿Estás Seguro que quieres reenviar la invitación?",
+    "are_you_sure_you_want_to_resend_the_email": "¿Estás seguro de que quieres reenviar el correo electrónico?"
+  },
+  "message": {
+    "bad_request": "Solicitud incorrecta.",
+    "successfully_saved": "Guardado exitosamente.",
+    "successfully_removed": "Eliminado exitosamente.",
+    "something_went_wrong": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
+    "are_you_sure_you_want_to_remove_this_item": "¿Estás seguro que quieres eliminar este elemento?"
+  },
+  "rule": {
+    "this_field_is_required": "Este campo es requerido",
+    "value_exceeds_maximum_allowed_length": "El valor excede la longitud máxima permitida"
+  },
+  "authorization": {
+    "message": {
+      "something_went_wrong": "Algo salió mal. No pudimos recuperar la información del usuario."
+    }
+  },
+  "user_search": {
+    "users": "Usuarios"
+  },
+  "login": {
+    "filed": {
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "message": {
+      "log_out": "Cerrar sesión",
+      "are_you_sure_you_want_to_log_out": "¿Estás seguro que quieres cerrar sesión?"
+    },
+    "rule": {
+      "email_is_required": "Correo electronico es requerido",
+      "invalid_email_address": "Correo electrónico no válida",
+      "password_is_required": "Contraseña es requerida"
+    }
+  },
+  "residential": {
+    "residentials": "Residenciales",
+    "new_residential": "Nuevo Residencial",
+    "edit_residential": "Editar Residencial",
+    "field": {
+      "name": "Nombre",
+      "status": "Status",
+      "address": "Dirección",
+      "land_phone": "Teléfono",
+      "cell_phone": "Teléfono celular"
+    },
+    "message": {
+      "bad_request": "Solicitud incorrecta.",
+      "could_not_retrieve_residential_status": "No pudimos recuperar los status.",
+      "could_not_retrieve_residential_information": "No pudimos recuperar la información del residencial.",
+      "could_not_retrieve_residentials": "Algo salió mal. no pudimos recuperar los residenciales."
+    },
+    "rule": {
+      "name_is_required": "Nombre es requerido",
+      "name_must_be_equal_to_or_less_than_50": "Nombre debe tener 50 caracteres o menos",
+      "status_is_required": "Status es requerido",
+      "address_must_be_equal_to_or_less_than_300": "Dirección debe tener 300 caracteres o menos",
+      "land_phone_must_be_equal_to_or_less_than_20": "Teléfono debe tener 20 caracteres o menos",
+      "cell_phone_must_be_equal_to_or_less_than_20": "Teléfono celular debe tener 20 caracteres o menos"
+    }
+  },
+  "house": {
+    "houses": "Casas",
+    "new_house": "Nueva Casa",
+    "edit_house": "Editar Casa",
+    "field": {
+      "name": "Nombre",
+      "street": "Calle",
+      "interior_number": "Número Interior",
+      "outdoor_number": "Número Exterior",
+      "users": "Users"
+    },
+    "rule": {
+      "name_is_required": "Nombre es requerido",
+      "name_must_be_equal_to_or_less_than_50": "Nombre debe tener 50 caracteres o menos",
+      "street_is_required": "Nombre de la calle es requerido",
+      "street_must_be_equal_to_or_less_than_200": "Nombre de la calle debe tener 200 caracteres o menos",
+      "interior_number_must_be_equal_to_or_less_than_10": "Número interior debe tener 10 caracteres o menos",
+      "outdoor_number_must_be_equal_to_or_less_than_10": "Número exterior debe tener 10 caracteres o menos"
+    }
+  },
+  "user": {
+    "users": "Usuarios",
+    "new_user": "Nuevo usuario",
+    "edit_user": "Editar usuario",
+    "field": {
+      "name": "Nombre",
+      "last_name": "Apellido",
+      "role_names": "Roles",
+      "password": "Contraseña",
+      "land_phone": "Teléfono fijo",
+      "cell_phone": "Teléfono móvil",
+      "email": "Correo electrónico",
+      "role": "Role",
+      "send_invitation_email": "Enviar correo de invitación"
+    },
+    "rule": {
+      "name_is_required": "Nombre es requerido",
+      "name_must_be_equal_to_or_less_than_50": "Nombre debe tener 50 caracteres o menos",
+      "last_name_must_be_equal_to_or_less_than_50": "Apellido debe tener 50 caracteres o menos",
+      "email_is_required": "Correo electronico es requerido",
+      "email_must_be_equal_to_or_less_than_50": "Correo electrónico debe tener 50 caracteres o menos",
+      "password_is_required": "Contraseña es requerida",
+      "password_must_be_equal_to_or_less_than_50": "Contraseña debe tener 50 caracteres o menos",
+      "land_phone_must_be_equal_to_or_less_than_20": "Teléfono  debe tener 20 caracteres o menos",
+      "cell_phone_must_be_equal_to_or_less_than_20": "Celular debe tener 20 caracteres o menos",
+      "role_is_required": "Role es requerido",
+      "invalid_email_address": "Correo electrónico no válida"
+    }
+  },
+  "expense_category": {
+    "expense_categories": "Categorías de gastos",
+    "new_expense_category": "Nueva categoría de gastos",
+    "edit_expense_category": "Editar categoría de gastos",
+    "field": {
+      "name": "Nombre",
+      "description": "Descripción"
+    }
+  },
+  "announcement": {
+    "new_announcement": "Nuevo Aviso",
+    "edit_announcement": "Editar Aviso",
+    "title": "Título",
+    "description": "Descripción",
+    "send_email": "Enviar correo electrónico"
+  }
+}

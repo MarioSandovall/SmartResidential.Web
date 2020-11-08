@@ -1,0 +1,160 @@
+{
+  "language": {
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "button": {
+    "login": "Login",
+    "close": "close",
+    "save": "Save",
+    "edit": "Edit",
+    "remove": "Remove",
+    "continue": "Continue",
+    "yes": "Yes",
+    "resend_invitation": "Resend Invitation",
+    "resend_email": "Resend email",
+    "view": "View"
+  },
+  "menu": {
+    "home": "Home",
+    "houses": "Houses",
+    "users": "Users",
+    "expense_categories": "Expense Categories",
+    "residential": "Residentials",
+    "logout": "Logout",
+    "announcements": "Announcements"
+  },
+  "table": {
+    "filter": "Filter",
+    "no_data_available": "No data available"
+  },
+  "email": {
+    "email_has_been_sent": "The email has been sent",
+    "are_you_sure_you_want_to_resend_the_invitation": "Are you sure you want to resend the invitation?",
+    "are_you_sure_you_want_to_resend_the_email": "Are you sure you want to resend the email?"
+  },
+  "message": {
+    "bad_request": "Bad request.",
+    "successfully_saved": "Successfully saved.",
+    "successfully_removed": "Successfully removed.",
+    "something_went_wrong": "Something went wrong. please try again later.",
+    "are_you_sure_you_want_to_remove_this_item": "Are you sure you want to remove this item?"
+  },
+  "rule": {
+    "this_field_is_required": "this field is required",
+    "value_exceeds_maximum_allowed_length": "Value exceeds maximum allowed length"
+  },
+  "authorization": {
+    "message": {
+      "something_went_wrong": "Something went wrong. We could not retrieve user information."
+    }
+  },
+  "user_search": {
+    "users": "Users"
+  },
+  "login": {
+    "filed": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "message": {
+      "log_out": "Log out",
+      "are_you_sure_you_want_to_log_out": "Are you sure you want to log out?"
+    },
+    "rule": {
+      "email_is_required": "Email is required",
+      "invalid_email_address": "Invalid email address",
+      "password_is_required": "Password is required"
+    }
+  },
+  "residential": {
+    "residentials": "Residentials",
+    "new_residential": "New Residential",
+    "edit_residential": "Edit Residential",
+    "field": {
+      "name": "Name",
+      "status": "Status",
+      "address": "Address",
+      "land_phone": "Land Phone",
+      "cell_phone": "Cell Phone"
+    },
+    "message": {
+      "could_not_retrieve_residential_status": "We could not retrieve the residential status.",
+      "could_not_retrieve_residential_information": "We could not retrieve the residential information.",
+      "could_not_retrieve_residentials": "Something went wrong. we could not retrieve the residentials."
+    },
+    "rule": {
+      "name_is_required": "Name is required",
+      "name_must_be_equal_to_or_less_than_50": "Name must be equal to or less than 50 characters",
+      "status_is_required": "Status is required",
+      "address_must_be_equal_to_or_less_than_300": "Address must be equal to or less than 300 characters",
+      "land_phone_must_be_equal_to_or_less_than_20": "Land Phone must be equal to or less than 20 characters",
+      "cell_phone_must_be_equal_to_or_less_than_20": "Cell phone must be equal to or less than 20 characters"
+    }
+  },
+  "house": {
+    "houses": "Houses",
+    "new_house": "New House",
+    "edit_house": "Edit House",
+    "field": {
+      "name": "Name",
+      "street": "Street",
+      "interior_number": "Interior Number",
+      "outdoor_number": "Outdoor Number",
+      "users": "Users"
+    },
+    "rule": {
+      "name_is_required": "Name is required",
+      "name_must_be_equal_to_or_less_than_50": "Name must be equal to or less than 50 characters",
+      "street_is_required": "Street Name is required",
+      "street_must_be_equal_to_or_less_than_200": "Street must be equal to or less than 200 characters",
+      "interior_number_must_be_equal_to_or_less_than_10": "Interior Number must be equal to or less than 10 characters",
+      "outdoor_number_must_be_equal_to_or_less_than_10": "Outdoor Number must be equal to or less than 10 characters"
+    }
+  },
+  "user": {
+    "users": "Users",
+    "new_user": "New User",
+    "edit_user": "Edit User",
+    "field": {
+      "name": "Name",
+      "last_name": "Last Name",
+      "role_names": "Roles",
+      "password": "Password",
+      "land_phone": "Land Phone",
+      "cell_phone": "Cell Phone",
+      "email": "Email",
+      "role": "Role",
+      "send_invitation_email": "Send invitation email"
+    },
+    "rule": {
+      "name_is_required": "Name is required",
+      "name_must_be_equal_to_or_less_than_50": "Name must be equal to or less than 50 characters",
+      "last_name_must_be_equal_to_or_less_than_50": "Last name must be equal to or less than 50 characters",
+      "email_is_required": "Email is required",
+      "email_must_be_equal_to_or_less_than_50": "Email must be equal to or less than 50 characters",
+      "password_is_required": "Password is required",
+      "password_must_be_equal_to_or_less_than_50": "Password must be equal to or less than 50 characters",
+      "land_phone_must_be_equal_to_or_less_than_20": "Land phone must be equal to or less than 20 characters",
+      "cell_phone_must_be_equal_to_or_less_than_20": "Cell phone must be equal to or less than 20 characters",
+      "role_is_required": "Role is required",
+      "invalid_email_address": "Invalid email address"
+    }
+  },
+  "expense_category": {
+    "expense_categories": "Expense Categories",
+    "new_expense_category": "New Expense Category",
+    "edit_expense_category": "Edit Expense Category",
+    "field": {
+      "name": "Name",
+      "description": "Description"
+    }
+  },
+  "announcement": {
+    "new_announcement": "New Announcement",
+    "edit_announcement": "Edit Announcement",
+    "title": "Title",
+    "description": "Description",
+    "send_email": "Send email"
+  }
+}
